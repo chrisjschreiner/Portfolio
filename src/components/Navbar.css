@@ -1,0 +1,136 @@
+.parent {
+  height: 124px;
+}
+
+img {
+  padding-top: 5px;
+}
+
+.nav__items {
+  font-size: 18px;
+  /* padding-bottom: 15px; */
+}
+
+.nav-menu {
+  display: flex;
+  /* align-items: center; */
+  /* justify-self: start; */
+  /* height: 100%; */
+}
+
+.nav-item {
+  padding: 0 1.5rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+ul a {
+  display: block;
+  position: relative;
+  padding: 1.5em 0;
+}
+
+ul a:hover {
+  color: #f9004d;
+}
+
+ul a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.2 em;
+  background-color: #f9004d;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+ul a:hover::after,
+ul a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+/* Scale from center */
+ul a::after {
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+ul a:hover::after,
+ul a:focus::after {
+  transform: scale(1);
+}
+
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 3.2rem;
+  right: 2rem;
+  transition: 0.4s all ease;
+}
+
+.hamburger.active {
+  position: fixed;
+  z-index: 1000;
+  top: 1.2rem;
+  right: 2rem;
+}
+
+.header {
+  transition: 0.4s all ease;
+}
+
+.header.active {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 0px 30px;
+  background-color: #010101;
+}
+
+@media only screen and (max-width: 960px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #010101;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.4s;
+    top: 0%;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav__items {
+    /* margin: 1.5rem 0; */
+    font-size: 1.5rem;
+  }
+
+  /* h2.home__text.pz__10 {
+    overflow-wrap: break-word;
+  } */
+
+  /* .header {
+      justify-content: space-between;
+    }
+    .navigation.pxy__30 {
+      display: none;
+    }
+    h2.white.pz__10 {
+      font-size: 50px !important;
+    } */
+}
