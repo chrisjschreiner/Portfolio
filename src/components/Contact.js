@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import contactImg from "../assets/about-9.jpg";
+
 function Contact() {
   return (
     <div className="contact component__space" id="contact">
@@ -18,25 +19,21 @@ function Contact() {
               </p>
             </div>
             <div className="input__box">
-              <input
-                type="text"
-                className="contact name"
-                placeholder="Your name *"
-              />
+              <input type="text" className="contact name" placeholder="Name" />
               <input
                 type="text"
                 className="contact email"
-                placeholder="Your Email *"
+                placeholder="Email"
               />
               <input
                 type="text"
                 className="contact subject"
-                placeholder="Write a Subject"
+                placeholder="Subject"
               />
               <textarea
                 name="message"
                 id="message"
-                placeholder="Write Your message"
+                placeholder="Message"
               ></textarea>
               <button className="btn contact pointer" type="submit">
                 Submit

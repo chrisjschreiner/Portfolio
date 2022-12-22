@@ -42,14 +42,11 @@ a.bottom__to__top {
   transition: 0.4s all ease;
   z-index: 1000;
 }
-/* a.bottom__to__top.active {
-  display: flex;
-} */
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .p__color {
-    font-size: 15px !important;
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 425px) {

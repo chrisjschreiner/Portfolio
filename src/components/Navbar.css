@@ -27,7 +27,7 @@ img {
 }
 
 ul a {
-  display: block;
+  display: inline-block;
   position: relative;
   padding: 1.5em 0;
 }
@@ -42,7 +42,7 @@ ul a::after {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 0.2 em;
+  height: 0.2em;
   background-color: #f9004d;
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
@@ -72,6 +72,7 @@ ul a:focus::after {
   top: 3.2rem;
   right: 2rem;
   transition: 0.4s all ease;
+  cursor: pointer;
 }
 
 .hamburger.active {
@@ -87,7 +88,7 @@ ul a:focus::after {
 
 .header.active {
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   width: 100%;
   padding: 0px 30px;
   background-color: #010101;

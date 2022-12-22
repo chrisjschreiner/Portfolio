@@ -35,21 +35,11 @@ const Navbar = () => {
               About
             </a>
           </li>
-          {/* <li className="nav__items mx__15">
-            <a href="#services" onClick={closeMenu}>
-              Services
-            </a>
-          </li> */}
           <li className="nav__items mx__15">
             <a href="#projects" onClick={closeMenu}>
               Projects
             </a>
           </li>
-          {/* <li className="nav__items mx__15">
-            <a href="#blog" onClick={closeMenu}>
-              Blog
-            </a>
-          </li> */}
           <li className="nav__items mx__15">
             <a href="#contact" onClick={closeMenu}>
               Contact

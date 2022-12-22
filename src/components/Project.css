@@ -57,7 +57,7 @@ img.project__img::after {
 
 .project__meta.absolute {
   top: 0%;
-  left: 00%;
+  left: 0%;
   display: flex;
   height: 100%;
   align-items: center;

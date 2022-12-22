@@ -71,7 +71,7 @@ p {
 }
 .container {
   width: 92%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .pz__10 {
   padding: 10px 0px;
@@ -136,12 +136,11 @@ button.btn {
   transition: 0.4s all ease;
   height: 50px;
   width: 180px;
-  margin: 0px 10px;
 }
 .p__color {
   color: rgba(198, 201, 216, 0.75);
   font-size: 18px;
-  line-height: 30px;
+  line-height: 25px;
   font-family: Poppins, sans-serif;
   margin-bottom: 15px;
 }

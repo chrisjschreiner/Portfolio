@@ -39,7 +39,7 @@ h4.hero__text {
   font-family: Montserrat, sans-serif;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 685px) {
   h2.hero__text.pz__10 {
     font-size: 32px;
   }
