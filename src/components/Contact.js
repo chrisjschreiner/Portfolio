@@ -1,15 +1,22 @@
 import React from "react";
 import "./Contact.css";
 import contactImg from "../assets/about-9.jpg";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function Contact() {
   return (
     <div className="contact component__space" id="contact">
       <div className="row">
-        <div className="col__2">
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeftBig"
+          animateOnce={true}
+          className="col__2"
+        >
+          {/* <div className="col__2"> */}
           <div className="contact__box">
             <div className="contact__meta">
-              <h1 className="hire__text">Hire Me.</h1>
+              <h1 className="hire__text">Contact Me</h1>
               <p className="hire__text white">
                 I am available for freelance work. Connect with me via phone:
               </p>
@@ -40,10 +47,19 @@ function Contact() {
               </button>
             </div>
           </div>
-        </div>
-        <div className="col__2">
-          <img src={contactImg} alt="" className="contact__img" />
-        </div>
+          {/* </div> */}
+        </AnimationOnScroll>
+        <AnimationOnScroll
+          animateIn="animate__fadeInRightBig"
+          animateOnce={true}
+          className="col__2"
+        >
+          {/* <div className="col__2"> */}
+          <div>
+            <img src={contactImg} alt="" className="contact__img" />
+          </div>
+          {/* <p className="contact__text">Test text</p> */}
+        </AnimationOnScroll>
       </div>
     </div>
   );

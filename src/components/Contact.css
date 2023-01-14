@@ -33,6 +33,7 @@ input.contact {
   width: 100%;
   overflow: hidden;
 }
+
 textarea#message {
   height: 120px;
   background: none;

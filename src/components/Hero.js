@@ -1,15 +1,16 @@
 import React from "react";
+import NameScramble from "./NameScramble";
 import "./Hero.css";
+import ArrowDown from "./ArrowDown";
 
 const Hero = () => {
   return (
-    <div className="container">
-      <div className="hero__content">
-        <h1 className="hero__text pz__10">WELCOME TO MY WORLD</h1>
-        <h2 className="hero__text pz__10">Hi, I'm Chris</h2>
-        <h2 className="hero__text pz__10">Schreiner</h2>
-        <h3 className="hero__text sweet pz__10">JS Developer.</h3>
-        <h4 className="hero__text pz__10">based in USA.</h4>
+    <div className="container__home">
+      <div className="text__home">
+        <NameScramble />
+        <h1 className="hero__text">Front-End</h1>
+        <h1 className="hero__text">Web Developer</h1>
+        <ArrowDown />
       </div>
     </div>
   );

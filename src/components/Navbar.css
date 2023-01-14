@@ -13,6 +13,8 @@ img {
 
 .nav-menu {
   display: flex;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   /* align-items: center; */
   /* justify-self: start; */
   /* height: 100%; */
@@ -97,6 +99,7 @@ ul a:focus::after {
 @media only screen and (max-width: 960px) {
   .hamburger {
     display: block;
+    z-index: 2;
   }
 
   .nav-menu {
@@ -114,6 +117,7 @@ ul a:focus::after {
 
   .nav-menu.active {
     right: 0;
+    z-index: 1;
   }
 
   .nav__items {

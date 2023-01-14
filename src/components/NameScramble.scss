@@ -1,0 +1,35 @@
+.NameScramble {
+  display: flex;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: solid underline #f9004d 6px;
+
+  &__blinker {
+    animation: blinker 0.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+
+    @keyframes blinker {
+      to {
+        opacity: 0;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 658px) {
+  .NameScramble {
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .NameScramble {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Sen", sans-serif;
+    transform: translateY(-50%);
+    padding-bottom: 5px;
+  }
+}

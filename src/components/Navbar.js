@@ -20,10 +20,10 @@ const Navbar = () => {
 
   return (
     <div className="parent">
-      <div className="header d__flex pxy__30">
-        <a href="/" id="home">
+      <div className="header d__flex justify__content__flex__end pxy__30">
+        {/* <a href="/" id="home">
           <img src={logo} alt="" />
-        </a>
+        </a> */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav__items mx__15">
             <a href="/" id="home" onClick={closeMenu}>

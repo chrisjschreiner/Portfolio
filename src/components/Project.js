@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import Project1 from "../assets/gotosnow-img-latest.jpg";
+import Project1 from "../assets/project onee.jpg";
 // import Project1 from "../assets/portfolio-1.jpg";
 import Project2 from "../assets/portfolio-2.jpg";
 import Project3 from "../assets/portfolio-3.jpg";
@@ -10,7 +10,7 @@ function Project() {
   return (
     <div className="project component__space" id="projects">
       <div className="heading">
-        <h1 className="heading">My Latest Projects</h1>
+        <h1 className="heading">Projects</h1>
         <p className="heading p__color">
           There are many variations of passages of Lorem Ipsum available,
         </p>
@@ -30,8 +30,15 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Full Stack</h5>
-                <h4 className="project__text">CRUD/Node/Express/MongoDB</h4>
-                <a href="#" className="project__btn">
+                <h4 className="project__text">
+                  CRUD / Node / Express / MongoDB
+                </h4>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://go-to-snow.onrender.com"
+                  className="project__btn"
+                >
                   View Details
                 </a>
               </div>
