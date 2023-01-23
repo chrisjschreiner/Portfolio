@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
-import logo from "../assets/logo.png";
+import { Fade as Hamburger } from "hamburger-react";
+// import logo from "../assets/logo.png";
 
 const Navbar = () => {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
     header.classList.toggle("active", window.scrollY > 0);
-  });
-  window.addEventListener("scroll", function () {
-    const hamburger = document.querySelector(".hamburger");
-    hamburger.classList.toggle("active", window.scrollY > 0);
   });
 
   const [click, setClick] = useState(false);
@@ -26,7 +23,7 @@ const Navbar = () => {
         </a> */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav__items mx__15">
-            <a href="/" id="home" onClick={closeMenu}>
+            <a href="/" onClick={closeMenu}>
               Home
             </a>
           </li>
@@ -46,13 +43,15 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <div className="hamburger" onClick={handleClick}>
-          {click ? (
-            <FaTimes size={26} style={{ color: "#ffffff" }} />
-          ) : (
-            <FaBars size={23} style={{ color: "#ffffff" }} />
-          )}
-        </div>
+        <Hamburger
+          className="hamburger-react"
+          color="white"
+          size={30}
+          direction="right"
+          rounded
+          toggled={click}
+          onToggle={handleClick}
+        />
       </div>
     </div>
   );

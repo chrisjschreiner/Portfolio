@@ -143,9 +143,14 @@ button.btn {
 .p__color {
   color: rgba(198, 201, 216, 0.75);
   font-size: 18px;
-  line-height: 25px;
+  line-height: 30px;
   margin-bottom: 15px;
 }
+
+.underline {
+  text-decoration: solid underline #f9004d 6px;
+}
+
 button.about.btn.pointer:hover {
   background: #fff;
   color: #000 !important;

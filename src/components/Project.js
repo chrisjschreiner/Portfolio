@@ -10,7 +10,7 @@ function Project() {
   return (
     <div className="project component__space" id="projects">
       <div className="heading">
-        <h1 className="heading">Projects</h1>
+        <h1 className="heading underline">Projects</h1>
         <p className="heading p__color">
           There are many variations of passages of Lorem Ipsum available,
         </p>

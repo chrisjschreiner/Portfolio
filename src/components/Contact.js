@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import contactImg from "../assets/about-9.jpg";
+import me3 from "../assets/me3.jpg";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
@@ -16,7 +16,7 @@ function Contact() {
           {/* <div className="col__2"> */}
           <div className="contact__box">
             <div className="contact__meta">
-              <h1 className="hire__text">Contact Me</h1>
+              <h1 className="hire__text underline">Contact</h1>
               <p className="hire__text white">
                 I am available for freelance work. Connect with me via phone:
               </p>
@@ -56,7 +56,7 @@ function Contact() {
         >
           {/* <div className="col__2"> */}
           <div>
-            <img src={contactImg} alt="" className="contact__img" />
+            <img src={me3} alt="" className="contact__img" />
           </div>
           {/* <p className="contact__text">Test text</p> */}
         </AnimationOnScroll>
