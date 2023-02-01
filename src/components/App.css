@@ -167,6 +167,11 @@ button.about.btn.pointer:hover {
     max-width: 50%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .component__space {
+    padding: 45px 0 0 0;
+  }
+}
 @media only screen and (max-width: 425px) {
   .col__3 {
     max-width: 100%;

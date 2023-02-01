@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 import { Fade as Hamburger } from "hamburger-react";
 // import logo from "../assets/logo.png";

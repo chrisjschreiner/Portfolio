@@ -2,18 +2,30 @@
   height: 124px;
 }
 
-img {
-  padding-top: 5px;
+.header {
+  transition: 0.4s all ease;
 }
 
-.nav__items {
-  font-size: 18px;
+.header.active {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 0px 30px;
+  background-color: #010101;
 }
 
 .nav-menu {
   display: flex;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.nav__items {
+  font-size: 18px;
+}
+
+img {
+  padding-top: 5px;
 }
 
 .nav-link {
@@ -62,18 +74,6 @@ ul a:focus::after {
 
 .hamburger-react {
   display: none;
-}
-
-.header {
-  transition: 0.4s all ease;
-}
-
-.header.active {
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  padding: 0px 30px;
-  background-color: #010101;
 }
 
 @media only screen and (max-width: 960px) {

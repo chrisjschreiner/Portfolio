@@ -24,7 +24,7 @@ function UpToTopButton() {
   return (
     <>
       {UpToTopButton && (
-        <a onClick={scrollUp} href="#" className="bottom__to__top">
+        <a onClick={scrollUp} href="/#" className="bottom__to__top">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
