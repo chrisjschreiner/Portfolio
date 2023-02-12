@@ -2,7 +2,7 @@
   background: #191919;
 }
 
-img.about__img {
+.about__img {
   border-radius: 10px;
   /* width: 100%; */
 }

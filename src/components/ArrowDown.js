@@ -1,5 +1,5 @@
 import React from "react";
-import "./ArrowDown.css";
+import "../styles/ArrowDown.css";
 
 const ArrowDown = () => {
   return (

@@ -1,5 +1,5 @@
 import TextScramble from "@twistezo/react-text-scramble";
-import "./NameScramble.scss";
+import "../styles/NameScramble.scss";
 
 const scrambleTexts = ["Chris Schreiner", "Chris Schreiner "];
 

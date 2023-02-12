@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./About.css";
+import "../styles/About.css";
 
 function UpToTopButton() {
   const [UpToTopButton, setUpToTopButton] = useState(false);

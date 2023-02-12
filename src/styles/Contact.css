@@ -65,5 +65,12 @@ button.contact:hover {
 }
 
 button.btn.contact.pointer {
-  margin: 20px 0px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1.hire__text,
+  p.hire__text {
+    text-align: center;
+  }
 }

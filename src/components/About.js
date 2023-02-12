@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "../styles/About.css";
 import me3 from "../assets/me3.jpg";
 import UpToTopButton from "./UpToTopButton";
 import Fade from "react-reveal/Fade";

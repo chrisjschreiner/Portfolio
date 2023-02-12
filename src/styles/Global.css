@@ -84,7 +84,7 @@ p {
 }
 .row {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   flex-wrap: wrap;
   overflow: hidden;
   align-items: flex-start;
@@ -138,7 +138,7 @@ button.btn {
   letter-spacing: 2px;
   transition: 0.4s all ease;
   height: 50px;
-  width: 180px;
+  /* width: 180px; */
 }
 .p__color {
   color: rgba(198, 201, 216, 0.75);

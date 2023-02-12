@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 import { Fade as Hamburger } from "hamburger-react";
 // import logo from "../assets/logo.png";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css";
+import "../styles/Project.css";
 import Project1 from "../assets/project onee.jpg";
 import Project3 from "../assets/portfolio-3.jpg";
 import { Fade } from "react-reveal";
@@ -8,15 +8,15 @@ function Project() {
   return (
     <div className="project component__space" id="projects">
       <Fade bottom>
-        <div className="heading">
-          <h1 className="heading underline">Projects</h1>
-          <p className="heading p__color">
-            There are many variations of passages of Lorem Ipsum available,
-          </p>
-          <p className="heading p__color">
-            but the majority have suffered alteration.
-          </p>
-        </div>
+        {/* <div className="heading"> */}
+        <h1 className="heading underline">Projects</h1>
+        <p className="heading p__color">
+          There are many variations of passages of Lorem Ipsum available,
+        </p>
+        <p className="heading p__color">
+          but the majority have suffered alteration.
+        </p>
+        {/* </div> */}
       </Fade>
       <Fade bottom>
         <div className="container">

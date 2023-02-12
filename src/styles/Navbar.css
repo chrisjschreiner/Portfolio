@@ -1,5 +1,5 @@
 .parent {
-  height: 124px;
+  height: 7rem;
 }
 
 .header {
@@ -103,5 +103,14 @@ ul a:focus::after {
   .nav__items {
     /* margin: 1.5rem 0; */
     font-size: 1.5rem;
+  }
+
+  ul a {
+    padding: 0;
+    margin: 1.5em 0;
+  }
+
+  ul a::after {
+    display: none;
   }
 }

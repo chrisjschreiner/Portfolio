@@ -1,6 +1,6 @@
 import React from "react";
 import NameScramble from "./NameScramble";
-import "./Hero.css";
+import "../styles/Hero.css";
 import ArrowDown from "./ArrowDown";
 import { Fade } from "react-reveal";
 
