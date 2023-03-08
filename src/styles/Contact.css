@@ -1,5 +1,5 @@
 .contact {
-  background-color: #191919;
+  background-color: var(--navy);
 }
 h1.hire__text {
   font-size: 60px;
@@ -51,8 +51,8 @@ button.btn.contact {
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
-  border: 2px solid #f9004d;
-  background-color: #f9004d;
+  border: 2px solid var(--green);
+  background-color: var(--green);
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -60,8 +60,8 @@ button.btn.contact {
 }
 button.contact:hover {
   background-color: #fff;
-  border: 2px solid #f9004d;
-  color: #f9004d !important;
+  border: 2px solid var(--green);
+  color: var(--green) !important;
 }
 
 button.btn.contact.pointer {

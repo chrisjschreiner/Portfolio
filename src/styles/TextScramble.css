@@ -1,0 +1,27 @@
+.TextScramble {
+  display: inline-block;
+  font-size: 3.5vw;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--lightest-slate);
+  /* text-decoration: solid underline #64ffda 4px; */
+}
+
+@media only screen and (max-width: 960px) {
+  .TextScramble {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  .TextScramble {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .TextScramble {
+    font-size: 27px;
+    padding-bottom: 5px;
+  }
+}

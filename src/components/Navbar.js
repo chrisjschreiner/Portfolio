@@ -4,11 +4,6 @@ import { Fade as Hamburger } from "hamburger-react";
 // import logo from "../assets/logo.png";
 
 const Navbar = () => {
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    header.classList.toggle("active", window.scrollY > 0);
-  });
-
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -21,11 +16,11 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </a> */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav__items mx__15">
+          {/* <li className="nav__items mx__15">
             <a href="/" onClick={closeMenu}>
               Home
             </a>
-          </li>
+          </li> */}
           <li className="nav__items mx__15">
             <a href="#about" onClick={closeMenu}>
               About
@@ -41,10 +36,16 @@ const Navbar = () => {
               Contact
             </a>
           </li>
+          <li>
+            <a className="resume__link" href="#projects">
+              Resume
+            </a>
+          </li>
         </ul>
+
         <Hamburger
           className="hamburger-react"
-          color="white"
+          color="#64ffda"
           size={30}
           direction="right"
           rounded

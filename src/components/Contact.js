@@ -42,9 +42,9 @@ function Contact() {
         </Fade>
         <Fade bottom>
           <div className="col__2">
-            <div>
+            {/* <div>
               <img src={me3} alt="" className="contact__img" />
-            </div>
+            </div> */}
           </div>
         </Fade>
       </div>

@@ -1,7 +1,7 @@
 import TextScramble from "@twistezo/react-text-scramble";
 import "../styles/NameScramble.scss";
 
-const scrambleTexts = ["Chris Schreiner", "Chris Schreiner "];
+const scrambleTexts = ["Chris Schreiner.", "Chris Schreiner. "];
 
 const NameScramble = () => {
   return (
@@ -10,7 +10,8 @@ const NameScramble = () => {
       <TextScramble
         texts={scrambleTexts}
         letterSpeed={5}
-        nextLetterSpeed={100}
+        nextLetterSpeed={75}
+        pauseTime={5000}
       />
     </div>
   );
