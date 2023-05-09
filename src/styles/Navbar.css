@@ -1,12 +1,12 @@
 .parent {
-  height: 7rem;
+  height: 5rem;
 }
 
 .header {
   position: fixed;
   z-index: 1;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   background-color: var(--navy);
 }
 
@@ -25,14 +25,14 @@
   padding-top: 5px;
 } */
 
-li a {
+.counter li a {
   display: inline-block;
   /* position: relative; */
   padding: 1.5em 0;
   counter-increment: navlink-counter 1;
 }
 
-li:not(:last-child)::before {
+.counter li:not(:last-child)::before {
   content: "0" counter(navlink-counter) ".";
   margin-right: 0.2rem;
   margin-left: 1rem;
@@ -45,13 +45,17 @@ li a:hover {
   color: var(--green);
 }
 
-.resume__link {
+li a.resume__link {
   display: flex;
+  text-align: center;
   align-items: center;
+  /* justify-content: center; */
   height: 2.5rem;
-  padding: 0rem 0.7rem;
+  width: 6rem;
+  /* padding: 0rem 0.7rem; */
+  padding-left: 1rem;
   margin-left: 2rem;
-  margin-top: 0.8rem;
+  margin-top: 0.7rem;
   font-size: 14px;
   letter-spacing: 1px;
   text-decoration: none;
@@ -123,7 +127,7 @@ ul a:focus::after {
 
   .nav-menu.active {
     right: 0;
-    z-index: 1;
+    /* z-index: 1; */
   }
 
   .nav__items a {
@@ -131,22 +135,23 @@ ul a:focus::after {
     font-size: 1.1rem;
   }
 
-  li a {
+  .nav-menu li a {
     display: flex;
     flex-direction: column;
     padding-bottom: 2.5rem;
+    counter-increment: navlink-counter 1;
   }
 
-  li:not(:last-child)::before {
+  .nav-menu li:not(:last-child)::before {
     content: "0" counter(navlink-counter) ".";
-    margin-right: 0.5rem;
     color: var(--green);
     font-size: 1rem;
   }
 
-  .resume__link {
+  li a.resume__link {
     display: inline-flex;
     justify-content: center;
+    font-size: 1rem;
     padding: 1.5rem 2.5rem;
     margin-top: 2rem;
     margin-right: 2rem;

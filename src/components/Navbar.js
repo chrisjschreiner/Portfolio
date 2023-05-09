@@ -15,7 +15,7 @@ const Navbar = () => {
         {/* <a href="/" id="home">
           <img src={logo} alt="" />
         </a> */}
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={click ? "nav-menu active" : "nav-menu counter"}>
           {/* <li className="nav__items mx__15">
             <a href="/" onClick={closeMenu}>
               Home

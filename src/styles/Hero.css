@@ -11,13 +11,14 @@
   min-height: 87vh;
   display: flex;
   align-items: center;
-  /* padding-left: 10rem; */
+  /* margin-top: 3rem; */
 }
 
 .text__home {
   display: flex;
   flex-direction: column;
   /* width: 100%; */
+  margin-top: 5%;
   padding-left: 20%;
   padding-bottom: 5%;
 }

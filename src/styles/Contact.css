@@ -29,7 +29,7 @@ input.contact {
   border: 2px solid hsla(0, 0%, 100%, 0.2);
 }
 .contact__img {
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100%;
   overflow: hidden;
 }

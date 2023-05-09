@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 function About() {
   return (
     <>
-      <div className="component__space" id="about">
+      <div className="about__space" id="about">
         <div className="container">
           <div className="row">
             <div className="col__2">
@@ -43,9 +43,8 @@ function About() {
             </div>
             <div className="col__2">
               <Fade bottom>
-                {/* <img src={me33} alt="" className="about__img" /> */}
                 <div alt="" className="about__img">
-                  <img src={me} />
+                  <img src={me} alt="" />
                 </div>
               </Fade>
             </div>

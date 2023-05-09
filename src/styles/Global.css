@@ -39,7 +39,7 @@ html {
 ::-webkit-scrollbar-thumb {
   background-color: var(--dark-slate);
   border: 3px solid var(--navy);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 body {
@@ -138,13 +138,13 @@ p {
   margin-top: 20px;
 }
 .component__space {
-  padding: 100px 0px 160px 0px;
+  padding: 45px 0px 160px 0px;
 }
 .pointer {
   cursor: pointer;
 }
 svg {
-  stroke-width: 1 !important;
+  stroke-width: 2 !important;
 }
 .relative {
   position: relative;
