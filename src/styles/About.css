@@ -44,7 +44,7 @@
   /* color: var(--lightest-slate); */
   font-weight: 600;
   text-align: start;
-  font-size: 1.7rem;
+  font-size: 32px;
   counter-increment: about-counter 1;
 }
 
@@ -113,27 +113,30 @@ a.bottom__to__top {
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1323px) {
-  .about__heading::after {
+  /* .about__heading::after {
     width: 23vw;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1024px) {
   .p__color {
     font-size: 15px;
   }
-  .about__heading::after {
-    width: 16vw;
-  }
-  /* .component__space {
-    padding-top: 50px;
-  } */
 }
 
 @media only screen and (max-width: 768px) {
   .about__heading::after {
-    /* width: 60vw; */
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .about__heading {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+  }
+  .about__heading::before {
+    font-size: 1.2rem;
   }
 }
 
