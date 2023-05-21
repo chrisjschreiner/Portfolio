@@ -20,27 +20,26 @@ const Project = () => {
             <h4 class="project-title">SCHR.</h4>
             <div class="project-details">
               <p>
-                Lorem ipsum dolor amet you probably haven't heard of them
-                bitters selvage listicle heirloom. Locavore kombucha street art
-                ennui 90's.
+                E-commerce web application built using the MERN stack, and
+                inspired by my love for snowboarding.
               </p>
               <ul>
-                <li>React</li>
-                <li>Express</li>
-                <li>Node</li>
-                <li>Sass</li>
+                <li>Styled-components</li>
+                <li>Stripe</li>
+                <li>Mongoose</li>
+                <li>JWT</li>
               </ul>
               <div className="project__links">
                 <IconContext.Provider value={{}}>
                   <a
-                    href="https://github.com/chrisjschreiner/gotosnow-master"
+                    href="https://github.com/chrisjschreiner/SCHR.-frontend"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FiGithub />
                   </a>
                   <a
-                    href="https://go-to-snow.onrender.com/"
+                    href="https://schr.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
