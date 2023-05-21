@@ -2,6 +2,7 @@ import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { IconContext } from "react-icons";
 import "../styles/Project.scss";
+import Fade from "react-reveal/Fade";
 import project1pic from "../assets/project1_final.jpg";
 import project2pic from "../assets/project2_final.jpg";
 
@@ -50,6 +51,7 @@ const Project = () => {
             </div>
           </div>
         </div>
+
         <div class="project">
           <div class="project2-content">
             <div class="project-label">Featured Project</div>

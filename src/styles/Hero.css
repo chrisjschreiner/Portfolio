@@ -1,23 +1,12 @@
-/* .hero__bg {
-  background-image: url(C:\Users\chris\portfolio\src\assets\bg.jpg);
-  background-color: #010101;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-} */
-
 .container__home {
   min-height: 87vh;
   display: flex;
   align-items: center;
-  /* margin-top: 3rem; */
 }
 
 .text__home {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   margin-top: 5%;
   padding-left: 20%;
   padding-bottom: 5%;
@@ -48,7 +37,6 @@
   font-weight: 600;
   color: var(--slate);
   letter-spacing: 1px;
-  /* text-decoration: solid underline var(--green) 6px; */
 }
 
 .desc {

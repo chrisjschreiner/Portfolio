@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
 import { Fade as Hamburger } from "hamburger-react";
-// import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -12,15 +11,7 @@ const Navbar = () => {
   return (
     <div className="parent">
       <div className="header d__flex justify__content__flex__end pxy__30">
-        {/* <a href="/" id="home">
-          <img src={logo} alt="" />
-        </a> */}
         <ul className={click ? "nav-menu active" : "nav-menu counter"}>
-          {/* <li className="nav__items mx__15">
-            <a href="/" onClick={closeMenu}>
-              Home
-            </a>
-          </li> */}
           <li className="nav__items mx__15">
             <a href="#about" onClick={closeMenu}>
               About
