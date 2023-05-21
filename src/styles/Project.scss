@@ -14,7 +14,7 @@ section {
   content: "0" counter(section) ".";
   margin-right: 10px;
   color: var(--green);
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 500;
   @media screen and (max-width: 475px) {
     font-size: 1.2rem;
@@ -152,6 +152,8 @@ section {
       background-color: var(--light-navy);
       color: var(--light-slate);
       padding: 20px 25px;
+      border-radius: 2px;
+
       @include tablet {
         background-color: transparent;
         padding: 20px 0;
@@ -246,6 +248,8 @@ img {
       background-color: var(--light-navy);
       color: var(--light-slate);
       padding: 20px 25px;
+      border-radius: 2px;
+
       @include tablet {
         background-color: transparent;
         padding: 20px 0;

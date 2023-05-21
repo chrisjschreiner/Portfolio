@@ -3,45 +3,21 @@
   padding: 10% 0%;
 }
 
-.about__img {
-  position: relative;
-  margin-top: 4rem;
-}
-
-.about__img img {
-  border-radius: 5px;
-}
-
-.about__img::after {
-  content: "";
-  /* display: block; */
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border: 2px solid var(--green);
-  top: 14px;
-  left: 20px;
-  z-index: -1;
-  border-radius: 5px;
-}
-
 .about__heading::before {
   position: relative;
   content: "0" counter(about-counter) ".";
   color: var(--green);
   margin-right: 0.5rem;
   padding-top: 0.1rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
 .about__heading {
   display: flex;
   align-items: center;
-  /* position: relative; */
   white-space: nowrap;
   margin-bottom: 2.5rem;
-  /* color: var(--lightest-slate); */
   font-weight: 600;
   text-align: start;
   font-size: 32px;
@@ -57,6 +33,54 @@
   height: 1px;
   margin-left: 20px;
   background-color: var(--lightest-navy);
+}
+
+ul.skills__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  grid-gap: 0 10px;
+  padding: 0;
+  margin: 20px 0 0 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul.skills__list li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  color: var(--slate);
+  /* font-family: var(--font-mono); */
+  /* font-size: var(--fz-xs); */
+}
+
+ul.skills__list li:before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  /* font-size: var(--fz-sm); */
+}
+
+.about__img {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.about__img img {
+  border-radius: 5px;
+}
+
+.about__img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--green);
+  top: 14px;
+  left: 20px;
+  z-index: -1;
+  border-radius: 5px;
 }
 
 .contact__link {
@@ -82,18 +106,6 @@
   outline: none;
 }
 
-/* button.about.btn.pointer {
-  text-transform: capitalize;
-  width: 195px;
-  height: 55px;
-  font-size: 18px;
-  transition: 0.4s ease;
-}
-
-.about__button {
-  padding: 20px 0px;
-} */
-
 a.bottom__to__top {
   height: 38px;
   width: 38px;
@@ -110,16 +122,9 @@ a.bottom__to__top {
   z-index: 1000;
 }
 
-/* RESPONSIVE */
-
-@media only screen and (max-width: 1323px) {
-  /* .about__heading::after {
-    width: 23vw;
-  } */
-}
-
 @media only screen and (max-width: 1024px) {
-  .p__color {
+  .p__color,
+  ul.skills__list li {
     font-size: 15px;
   }
 }
