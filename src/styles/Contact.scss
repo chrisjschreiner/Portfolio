@@ -55,6 +55,10 @@
     border: 1px solid var(--green);
     background-color: transparent;
     color: var(--green);
-    transition: 0.4s all ease;
+  }
+
+  .contact__link:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    outline: none;
   }
 }

@@ -1,5 +1,6 @@
 import TextScramble from "@twistezo/react-text-scramble";
 import "../styles/NameScramble.scss";
+import { Fade } from "react-reveal";
 
 const scrambleTexts = ["Chris Schreiner.", "Chris Schreiner. "];
 

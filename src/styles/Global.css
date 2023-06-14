@@ -22,6 +22,7 @@
   --green-tint: rgba(100, 255, 218, 0.1);
   --pink: #f57dff;
   --blue: #57cbff;
+  --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 html {

@@ -10,56 +10,58 @@ const Project = () => {
   return (
     <div className="project__space" id="projects">
       <section>
-        <h2 className="numbered-heading">Some Things I've Built</h2>
-        <div class="project">
-          <div class="project1-img">
-            <img src={project1pic} alt="" />
-          </div>
-          <div class="project1-content">
-            <div class="project-label">Featured Project</div>
-            <h4 class="project-title">SCHR.</h4>
-            <div class="project-details">
-              <p>
-                E-commerce web application built using the MERN stack, and
-                inspired by my love for snowboarding.
-              </p>
-              <ul>
-                <li>Styled-components</li>
-                <li>Stripe</li>
-                <li>Mongoose</li>
-                <li>JWT</li>
-              </ul>
-              <div className="project__links">
-                <IconContext.Provider value={{}}>
-                  <a
-                    href="https://github.com/chrisjschreiner/SCHR.-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FiGithub />
-                  </a>
-                  <a
-                    href="https://schr.onrender.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FiExternalLink />
-                  </a>
-                </IconContext.Provider>
+        <Fade bottom>
+          <h2 className="numbered-heading">Some Things I've Built</h2>
+          <div className="project">
+            <div className="project1-img">
+              <img src={project1pic} alt="" />
+            </div>
+            <div className="project1-content">
+              <div className="project-label">Featured Project</div>
+              <h4 className="project-title">SCHR.</h4>
+              <div className="project-details">
+                <p>
+                  E-commerce web application built using the MERN stack, and
+                  inspired by my love for snowboarding and all things outdoors.
+                </p>
+                <ul>
+                  <li>Styled-components</li>
+                  <li>Stripe</li>
+                  <li>Redux</li>
+                  <li>JWT</li>
+                </ul>
+                <div className="project__links">
+                  <IconContext.Provider value={{}}>
+                    <a
+                      href="https://github.com/chrisjschreiner/SCHR.-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FiGithub />
+                    </a>
+                    <a
+                      href="https://schr.onrender.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FiExternalLink />
+                    </a>
+                  </IconContext.Provider>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Fade>
 
-        <div class="project">
-          <div class="project2-content">
-            <div class="project-label">Featured Project</div>
-            <h4 class="project-title">Go To Snow</h4>
-            <div class="project-details">
+        <div className="project">
+          <div className="project2-content">
+            <div className="project-label">Featured Project</div>
+            <h4 className="project-title">Go To Snow</h4>
+            <div className="project-details">
               <p>
-                Lorem ipsum dolor amet you probably haven't heard of them
-                bitters selvage listicle heirloom. Locavore kombucha street art
-                ennui 90's.
+                My first CRUD app to help you find your next U.S. ski resort
+                vacation destination. Create an account to share your own
+                experiences.
               </p>
               <ul>
                 <li>React</li>
@@ -87,7 +89,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div class="project2-img">
+          <div className="project2-img">
             <img src={project2pic} alt="" />
           </div>
         </div>

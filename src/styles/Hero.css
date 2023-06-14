@@ -16,6 +16,18 @@
   padding: 15rem 0rem 25rem 10rem;
 }
 
+/* .fadedown-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms var(--easing), transform 300ms var(--easing);
+}
+
+.fadedown-enter-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 300ms var(--easing), transform 300ms var(--easing);
+} */
+
 .hero__text__intro {
   font-size: 1rem;
   font-weight: 200;
