@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import "../styles/Hero.css";
-import ArrowDown from "./ArrowDown";
 import TextScramble from "./TextScramble";
 
 const Hero = ({ timeline }) => {
@@ -41,8 +40,6 @@ const Hero = ({ timeline }) => {
             Check out my projects
           </a>
         </div>
-
-        <ArrowDown />
       </div>
     </div>
   );

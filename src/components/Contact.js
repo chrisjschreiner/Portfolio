@@ -1,9 +1,26 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import "../styles/Contact.scss";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 function Contact() {
+  const contact_reveal = useRef(null);
+
+  useEffect(() => {
+    const el = contact_reveal.current;
+    gsap.from(el, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+      },
+    });
+  });
+
   return (
-    <section id="contact" className="contact__container">
+    <section ref={contact_reveal} id="contact" className="contact__container">
       <h2 className="contact__heading">What's Next?</h2>
       <h2 className="title">Get In Touch</h2>
       <p className="contact__blurb">

@@ -1,16 +1,17 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import "../styles/Navbar.css";
 import { Fade as Hamburger } from "hamburger-react";
 
 const Navbar = ({ timeline }) => {
-  let { menu_item1, menu_item2, menu_item3, menu_item4 } = useRef(null);
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-
   const closeMenu = () => setClick(false);
+
+  const { menu_item1, menu_item2, menu_item3, menu_item4 } = useRef(null);
 
   useEffect(() => {
     timeline.from([menu_item1, menu_item2, menu_item3, menu_item4], {
+      delay: 0.7,
       opacity: 0,
       y: -20,
       stagger: {

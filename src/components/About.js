@@ -1,9 +1,26 @@
+import { useEffect, useRef } from "react";
 import "../styles/About.css";
 import me from "../assets/me-b&w.jpg";
 import UpToTopButton from "./UpToTopButton";
-import Fade from "react-reveal/Fade";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 function About() {
+  const about_reveal = useRef(null);
+
+  useEffect(() => {
+    const el = about_reveal.current;
+    gsap.from(el, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+      },
+    });
+  });
+
   const skills = [
     "JavaScript",
     "TypeScript",
@@ -16,9 +33,8 @@ function About() {
     <>
       <div className="about__space" id="about">
         <div className="container">
-          <div className="row">
+          <div ref={about_reveal} className="row">
             <div className="col__2">
-              {/* <Fade bottom> */}
               <h1 className="about__heading">About Me</h1>
               <p className="p__color">
                 Hello! My name is Chris Schreiner, and I'm a teacher and
@@ -41,14 +57,11 @@ function About() {
                   ))}
                 </ul>
               </div>
-              {/* </Fade> */}
             </div>
             <div className="col__2">
-              <Fade bottom>
-                <div alt="" className="about__img">
-                  <img src={me} alt="" />
-                </div>
-              </Fade>
+              <div alt="" className="about__img">
+                <img src={me} alt="" />
+              </div>
             </div>
           </div>
         </div>

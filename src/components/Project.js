@@ -1,59 +1,101 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { IconContext } from "react-icons";
 import "../styles/Project.scss";
-import Fade from "react-reveal/Fade";
 import project1pic from "../assets/project1_final.jpg";
 import project2pic from "../assets/project2_final.jpg";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 const Project = () => {
+  const h2_ref = useRef(null);
+  const project1_ref = useRef(null);
+  const project2_ref = useRef(null);
+
+  useEffect(() => {
+    const el = h2_ref.current;
+    gsap.from(el, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+      },
+    });
+  });
+
+  useEffect(() => {
+    const el = project1_ref.current;
+    gsap.from(el, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+      },
+    });
+  });
+
+  useEffect(() => {
+    const el = project2_ref.current;
+    gsap.from(el, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+      },
+    });
+  });
+
   return (
     <div className="project__space" id="projects">
       <section>
-        <Fade bottom>
-          <h2 className="numbered-heading">Some Things I've Built</h2>
-          <div className="project">
-            <div className="project1-img">
-              <img src={project1pic} alt="" />
-            </div>
-            <div className="project1-content">
-              <div className="project-label">Featured Project</div>
-              <h4 className="project-title">SCHR.</h4>
-              <div className="project-details">
-                <p>
-                  E-commerce web application built using the MERN stack, and
-                  inspired by my love for snowboarding and all things outdoors.
-                </p>
-                <ul>
-                  <li>Styled-components</li>
-                  <li>Stripe</li>
-                  <li>Redux</li>
-                  <li>JWT</li>
-                </ul>
-                <div className="project__links">
-                  <IconContext.Provider value={{}}>
-                    <a
-                      href="https://github.com/chrisjschreiner/SCHR.-frontend"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FiGithub />
-                    </a>
-                    <a
-                      href="https://schr.onrender.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FiExternalLink />
-                    </a>
-                  </IconContext.Provider>
-                </div>
+        <h2 ref={h2_ref} className="numbered-heading">
+          Some Things I've Built
+        </h2>
+        <div ref={project1_ref} className="project">
+          <div className="project1-img">
+            <img src={project1pic} alt="" />
+          </div>
+          <div className="project1-content">
+            <div className="project-label">Featured Project</div>
+            <h4 className="project-title">SCHR.</h4>
+            <div className="project-details">
+              <p>
+                E-commerce web application built using the MERN stack, and
+                inspired by my love for snowboarding and all things outdoors.
+              </p>
+              <ul>
+                <li>Styled-components</li>
+                <li>Stripe</li>
+                <li>Redux</li>
+                <li>JWT</li>
+              </ul>
+              <div className="project__links">
+                <IconContext.Provider value={{}}>
+                  <a
+                    href="https://github.com/chrisjschreiner/SCHR.-frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiGithub />
+                  </a>
+                  <a
+                    href="https://schr.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiExternalLink />
+                  </a>
+                </IconContext.Provider>
               </div>
             </div>
           </div>
-        </Fade>
+        </div>
 
-        <div className="project">
+        <div ref={project2_ref} className="project">
           <div className="project2-content">
             <div className="project-label">Featured Project</div>
             <h4 className="project-title">Go To Snow</h4>
