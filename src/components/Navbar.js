@@ -7,7 +7,7 @@ const Navbar = ({ timeline }) => {
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
 
-  const { menu_item1, menu_item2, menu_item3, menu_item4 } = useRef(null);
+  let { menu_item1, menu_item2, menu_item3, menu_item4 } = useRef(null);
 
   useEffect(() => {
     timeline.from([menu_item1, menu_item2, menu_item3, menu_item4], {
