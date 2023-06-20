@@ -20,7 +20,7 @@ const Hero = ({ timeline }) => {
   }, [timeline, hero_item1, hero_item2, hero_item3, hero_item4, hero_item5]);
 
   return (
-    <div className="container__home">
+    <div className="container__home" id="/#">
       <div className="text__home">
         <h2 ref={(el) => (hero_item1 = el)} className="hero__text__intro">
           Hi, my name is

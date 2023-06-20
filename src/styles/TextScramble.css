@@ -4,7 +4,6 @@
   font-weight: 600;
   letter-spacing: 2px;
   color: var(--lightest-slate);
-  /* text-decoration: solid underline #64ffda 4px; */
 }
 
 @media only screen and (max-width: 960px) {

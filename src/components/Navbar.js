@@ -1,28 +1,48 @@
 import { useState, useEffect, useRef } from "react";
 import "../styles/Navbar.css";
 import { Fade as Hamburger } from "hamburger-react";
+import logo from "../assets/logo.png";
 
 const Navbar = ({ timeline }) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
 
-  let { menu_item1, menu_item2, menu_item3, menu_item4 } = useRef(null);
+  click
+    ? (document.body.style.overflow = "hidden")
+    : (document.body.style.overflow = "auto");
+
+  let { logo_icon, menu_item1, menu_item2, menu_item3, menu_item4, burger } =
+    useRef(null);
 
   useEffect(() => {
-    timeline.from([menu_item1, menu_item2, menu_item3, menu_item4], {
-      delay: 0.7,
-      opacity: 0,
-      y: -20,
-      stagger: {
-        amount: 0.5,
-      },
-    });
-  }, [timeline, menu_item1, menu_item2, menu_item3, menu_item4]);
+    timeline.from(
+      [logo_icon, menu_item1, menu_item2, menu_item3, menu_item4, burger],
+      {
+        delay: 0.7,
+        opacity: 0,
+        y: -20,
+        stagger: {
+          amount: 0.5,
+        },
+      }
+    );
+  }, [
+    timeline,
+    logo_icon,
+    menu_item1,
+    menu_item2,
+    menu_item3,
+    menu_item4,
+    burger,
+  ]);
 
   return (
     <div className="parent">
-      <div className="header d__flex justify__content__flex__end pxy__30">
+      <div className="header">
+        <a alt="" ref={(el) => (logo_icon = el)} href="/#" className="logo">
+          <img src={logo} alt="" />
+        </a>
         <ul className={click ? "nav-menu active" : "nav-menu counter"}>
           <li ref={(el) => (menu_item1 = el)} className="nav__items mx__15">
             <a href="#about" onClick={closeMenu}>
@@ -45,16 +65,16 @@ const Navbar = ({ timeline }) => {
             </a>
           </li>
         </ul>
-
-        <Hamburger
-          className="hamburger-react"
-          color="#64ffda"
-          size={30}
-          direction="right"
-          rounded
-          toggled={click}
-          onToggle={handleClick}
-        />
+        <div ref={(el) => (burger = el)} className="hamburger-react">
+          <Hamburger
+            color="#64ffda"
+            size={30}
+            direction="right"
+            rounded
+            toggled={click}
+            onToggle={handleClick}
+          />
+        </div>
       </div>
     </div>
   );

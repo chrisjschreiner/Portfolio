@@ -1,5 +1,4 @@
 .about__space {
-  /* padding: 180px 0px 160px 0px; */
   padding: 10% 0%;
 }
 
@@ -50,8 +49,6 @@ ul.skills__list li {
   margin-bottom: 10px;
   padding-left: 20px;
   color: var(--slate);
-  /* font-family: var(--font-mono); */
-  /* font-size: var(--fz-xs); */
 }
 
 ul.skills__list li:before {
@@ -59,7 +56,6 @@ ul.skills__list li:before {
   position: absolute;
   left: 0;
   color: var(--green);
-  /* font-size: var(--fz-sm); */
 }
 
 .about__img {
@@ -106,22 +102,6 @@ ul.skills__list li:before {
   outline: none;
 }
 
-a.bottom__to__top {
-  height: 38px;
-  width: 38px;
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background-color: var(--green);
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.4s all ease;
-  z-index: 1000;
-}
-
 @media only screen and (max-width: 1024px) {
   .p__color,
   ul.skills__list li {
@@ -138,7 +118,7 @@ a.bottom__to__top {
 @media screen and (max-width: 475px) {
   .about__heading {
     font-size: 1.4rem;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .about__heading::before {
     font-size: 1.2rem;

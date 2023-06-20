@@ -27,7 +27,6 @@
 
 html {
   scroll-behavior: smooth;
-  /* Scrollbar Styles */
   scrollbar-width: thin;
   scrollbar-color: var(--dark-slate) var(--navy);
 }
@@ -48,7 +47,6 @@ body {
   height: 100%;
   background-color: var(--navy);
   font-family: Poppins, sans-serif;
-  /* counter-reset: navlink-counter section-counter 1; */
   counter-reset: navlink-counter 1;
 }
 a {
@@ -117,7 +115,6 @@ p {
 }
 .row {
   display: flex;
-  /* width: 100%; */
   flex-wrap: wrap;
   overflow: hidden;
   align-items: flex-start;
@@ -171,7 +168,6 @@ button.btn {
   letter-spacing: 2px;
   transition: 0.4s all ease;
   height: 50px;
-  /* width: 180px; */
 }
 .p__color {
   color: var(--slate);
@@ -190,6 +186,7 @@ button.about.btn.pointer:hover {
 }
 
 /* RESPONSIVE */
+
 @media only screen and (max-width: 768px) {
   .col__2 {
     max-width: 100%;
@@ -200,21 +197,9 @@ button.about.btn.pointer:hover {
     max-width: 50%;
   }
 }
-/* @media only screen and (max-width: 768px) {
-  .component__space {
-    padding: 45px 0 0 0;
-  }
-} */
+
 @media only screen and (max-width: 425px) {
   .col__3 {
     max-width: 100%;
-  }
-}
-@media only screen and (max-width: 425px) {
-  span.copyright {
-    font-size: 13px !important;
-  }
-  .footer.d__flex.align__items__center.justify__content__space__between.pz-10 {
-    flex-wrap: wrap;
   }
 }
