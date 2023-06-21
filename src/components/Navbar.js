@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "../styles/Navbar.css";
 import { Fade as Hamburger } from "hamburger-react";
 import logo from "../assets/logo.png";
+import resume from "../assets/resume.pdf";
 
 const Navbar = ({ timeline }) => {
   const [click, setClick] = useState(false);
@@ -60,7 +61,12 @@ const Navbar = ({ timeline }) => {
             </a>
           </li>
           <li ref={(el) => (menu_item4 = el)}>
-            <a className="resume__link" href="#projects">
+            <a
+              className="resume__link"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
             </a>
           </li>
