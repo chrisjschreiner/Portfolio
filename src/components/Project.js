@@ -101,15 +101,15 @@ const Project = () => {
             <h4 className="project-title">Go To Snow</h4>
             <div className="project-details">
               <p>
-                My first CRUD app to help you find your next U.S. ski resort
-                vacation destination. Create an account to share your own
-                experiences.
+                Explore U.S. ski resort destinations on a map. Learn of others'
+                experiences or create an account to share your own.
               </p>
               <ul>
-                <li>React</li>
-                <li>Express</li>
-                <li>Node</li>
-                <li>Sass</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>REST</li>
+                <li>MongoDB</li>
+                <li>Geocoding</li>
               </ul>
               <div className="project__links">
                 <IconContext.Provider value={{}}>
