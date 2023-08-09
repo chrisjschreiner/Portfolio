@@ -121,7 +121,7 @@ const Project = () => {
                     <FiGithub />
                   </a>
                   <a
-                    href="https://go-to-snow.onrender.com/"
+                    href="https://go-to-snow.cyclic.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
