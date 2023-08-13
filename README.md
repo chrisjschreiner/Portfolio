@@ -54,6 +54,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<div align="center">
+  <a href="https://github.com/chrisjschreiner/Portfolio">
+    <img src="C:\Users\chris\Desktop\portfolio_screenshot.png" alt="Logo" width="80" height="80">
+  </a>
+</div>
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `chrisjschreiner`, `Portfolio`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
