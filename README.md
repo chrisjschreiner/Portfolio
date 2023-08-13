@@ -56,7 +56,7 @@
 
 <div align="center">
   <a href="https://github.com/chrisjschreiner/Portfolio">
-    <img src="C:\Users\chris\Desktop\portfolio_screenshot.png" alt="Logo" width="80" height="80">
+    <img src="Users\chris\Desktop\portfolio_screenshot.png" alt="Logo" width="80" height="80">
   </a>
 </div>
 
