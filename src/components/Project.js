@@ -165,10 +165,9 @@ const Project = () => {
                 app inspired by my love for languages.
               </p>
               <ul>
-                <li>Styled-components</li>
-                <li>Stripe</li>
-                <li>Redux</li>
-                <li>JWT</li>
+                <li>React</li>
+                <li>Tailwind</li>
+                <li>Vite</li>
               </ul>
               <div className="project__links">
                 <IconContext.Provider value={{}}>
