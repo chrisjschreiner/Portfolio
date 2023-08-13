@@ -173,14 +173,14 @@ const Project = () => {
               <div className="project__links">
                 <IconContext.Provider value={{}}>
                   <a
-                    href="https://github.com/chrisjschreiner/SCHR.-frontend"
+                    href="https://github.com/chrisjschreiner/spanish-verb-conjugator"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FiGithub />
                   </a>
                   <a
-                    href="https://schr.onrender.com/"
+                    href="https://spanish-verb-conjugator.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
