@@ -1,17 +1,20 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
+import useRefs from "react-use-refs";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { IconContext } from "react-icons";
 import "../styles/Project.scss";
 import project1pic from "../assets/project1_final.jpg";
 import project2pic from "../assets/project2_final.jpg";
+import project3pic from "../assets/project3_final.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Project = () => {
-  const h2_ref = useRef(null);
-  const project1_ref = useRef(null);
-  const project2_ref = useRef(null);
+  const h2_ref = useRefs(null);
+  const [project1_ref, project2_ref, project3_ref] = useRefs(null);
+  // const project2_ref = useRef(null);
+  // const project3_ref = useRef(null);
 
   useEffect(() => {
     const el = h2_ref.current;
@@ -39,6 +42,18 @@ const Project = () => {
 
   useEffect(() => {
     const el = project2_ref.current;
+    gsap.from(el, {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 80%",
+      },
+    });
+  });
+
+  useEffect(() => {
+    const el = project3_ref.current;
     gsap.from(el, {
       opacity: 0,
       y: 20,
@@ -134,6 +149,46 @@ const Project = () => {
           </div>
           <div className="project2-img">
             <img src={project2pic} alt="" />
+          </div>
+        </div>
+
+        <div ref={project3_ref} className="project">
+          <div className="project1-img">
+            <img src={project3pic} alt="" />
+          </div>
+          <div className="project1-content">
+            <div className="project-label">Featured Project</div>
+            <h4 className="project-title">Verb Conjugator</h4>
+            <div className="project-details">
+              <p>
+                Conjugate 600+ Spanish verbs into all moods and tenses with this
+                app inspired by my love for languages.
+              </p>
+              <ul>
+                <li>Styled-components</li>
+                <li>Stripe</li>
+                <li>Redux</li>
+                <li>JWT</li>
+              </ul>
+              <div className="project__links">
+                <IconContext.Provider value={{}}>
+                  <a
+                    href="https://github.com/chrisjschreiner/SCHR.-frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiGithub />
+                  </a>
+                  <a
+                    href="https://schr.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiExternalLink />
+                  </a>
+                </IconContext.Provider>
+              </div>
+            </div>
           </div>
         </div>
       </section>
