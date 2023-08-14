@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import useRefs from "react-use-refs";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { IconContext } from "react-icons";
@@ -11,7 +11,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Project = () => {
-  const h2_ref = useRefs(null);
+  const h2_ref = useRef(null);
   const [project1_ref, project2_ref, project3_ref] = useRefs(null);
   // const project2_ref = useRef(null);
   // const project3_ref = useRef(null);
