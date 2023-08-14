@@ -13,8 +13,6 @@ gsap.registerPlugin(ScrollTrigger);
 const Project = () => {
   const h2_ref = useRef(null);
   const [project1_ref, project2_ref, project3_ref] = useRefs(null);
-  // const project2_ref = useRef(null);
-  // const project3_ref = useRef(null);
 
   useEffect(() => {
     const el = h2_ref.current;
