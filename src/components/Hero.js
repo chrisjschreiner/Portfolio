@@ -7,16 +7,22 @@ const Hero = ({ timeline }) => {
     useRef(null);
 
   useEffect(() => {
-    timeline.from(
-      [hero_item1, hero_item2, hero_item3, hero_item4, hero_item5],
-      {
-        opacity: 0,
-        y: 20,
-        stagger: {
-          amount: 0.5,
-        },
-      }
-    );
+    function init() {
+      timeline.from(
+        [hero_item1, hero_item2, hero_item3, hero_item4, hero_item5],
+        {
+          // opacity: 0,
+          autoAlpha: 0,
+          y: 20,
+          stagger: {
+            amount: 0.5,
+          },
+        }
+      );
+    }
+    window.addEventListener("load", function (event) {
+      init();
+    });
   }, [timeline, hero_item1, hero_item2, hero_item3, hero_item4, hero_item5]);
 
   return (
