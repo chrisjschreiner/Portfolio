@@ -10,7 +10,7 @@
   <p align="center">
     This is my personal portfolio showcasing my projects.
     <br />
-    <a href="https://portfolio-lfqq.onrender.com">View Demo »</a>
+    <a href="https://portfolio-lfqq.onrender.com"><Strong>View Demo »</Strong></a>
   </p>
 </div>
 
