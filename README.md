@@ -64,7 +64,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,ts,nextjs,redux,nodejs,express,mongodb,sass,styledcomponents,tailwind,git,github,postman,netlify,vscode&perline=18)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass,vscode&perline=18)](https://skillicons.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
