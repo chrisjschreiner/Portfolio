@@ -21,7 +21,6 @@ const Navbar = ({ timeline }) => {
       [logo_icon, menu_item1, menu_item2, menu_item3, menu_item4, burger],
       {
         delay: 0.7,
-        // opacity: 0,
         autoAlpha: 0,
         y: -20,
         stagger: {
