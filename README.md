@@ -17,7 +17,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
