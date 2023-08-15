@@ -13,8 +13,7 @@
     <a href="https://github.com/chrisjschreiner/Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://portfolio-lfqq.onrender.com target="_blank"
-              rel="noopener noreferrer"">View Demo</a>
+    <a href="https://portfolio-lfqq.onrender.com>View Demo</a>
     ·
     <a href="https://github.com/chrisjschreiner/Portfolio/issues">Report Bug</a>
     ·
