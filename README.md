@@ -10,14 +10,7 @@
   <p align="center">
     This is my personal portfolio showcasing my projects.
     <br />
-    <a href="https://github.com/chrisjschreiner/Portfolio"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://portfolio-lfqq.onrender.com">View Demo</a>
-    ·
-    <a href="https://github.com/chrisjschreiner/Portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/chrisjschreiner/Portfolio/issues">Request Feature</a>
+    <a href="https://portfolio-lfqq.onrender.com">View Demo »</a>
   </p>
 </div>
 
@@ -62,16 +55,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-### Built With
+## Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass,vscode&perline=18)](https://skillicons.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,7 +185,7 @@ Project Link: [https://github.com/chrisjschreiner/Portfolio](https://github.com/
 [license-url]: https://github.com/chrisjschreiner/Portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: portfolio_screenshot.png
+[product-screenshot]: src/assets/portfolio_screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
