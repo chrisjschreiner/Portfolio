@@ -10,14 +10,7 @@
   <p align="center">
     This is my personal portfolio showcasing my projects.
     <br />
-    <a href="https://github.com/chrisjschreiner/Portfolio"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://portfolio-lfqq.onrender.com">View Demo</a>
-    ·
-    <a href="https://github.com/chrisjschreiner/Portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/chrisjschreiner/Portfolio/issues">Request Feature</a>
   </p>
 </div>
 
