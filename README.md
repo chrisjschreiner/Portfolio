@@ -49,7 +49,7 @@
 
 <p float="left">
   <img src="src/assets/portfolio_screenshot.png" width="49%" />
-  <img src="src/assets/portfolio_screenshot_mobile.png" width="25" height="50" />
+  <img src="src/assets/portfolio_screenshot_mobile.png" width="50" height="100" />
 </p>
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
