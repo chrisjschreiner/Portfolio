@@ -49,7 +49,7 @@
 
 <p float="left">
   <img src="src/assets/portfolio_screenshot.png" width="49%" />
-  <img src="src/assets/Screenshot mobile cropped" width="33%" />
+  <img src="src/assets/portfolio_screenshot_mobile" width="49%" />
   <img src="images/lizzard.png" width="33%" />
 </p>
 
