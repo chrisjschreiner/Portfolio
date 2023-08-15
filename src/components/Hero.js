@@ -6,8 +6,9 @@ const Hero = ({ timeline }) => {
   let { hero_item1, hero_item2, hero_item3, hero_item4, hero_item5 } =
     useRef(null);
 
-  useEffect(() => {
-    function init() {
+  useEffect(
+    () => {
+      // function init() {
       timeline.from(
         [hero_item1, hero_item2, hero_item3, hero_item4, hero_item5],
         {
@@ -19,29 +20,42 @@ const Hero = ({ timeline }) => {
           },
         }
       );
-    }
-    window.addEventListener("load", function (event) {
-      init();
-    });
-  }, [timeline, hero_item1, hero_item2, hero_item3, hero_item4, hero_item5]);
+    },
+    // window.addEventListener("load", function (event) {
+    //   init();
+    // });
+    [timeline, hero_item1, hero_item2, hero_item3, hero_item4, hero_item5]
+  );
 
   return (
     <div className="container__home" id="/#">
       <div className="text__home">
-        <h2 ref={(el) => (hero_item1 = el)} className="hero__text__intro">
+        <h2
+          style={{ visibility: "hidden" }}
+          ref={(el) => (hero_item1 = el)}
+          className="hero__text__intro"
+        >
           Hi, my name is
         </h2>
-        <div ref={(el) => (hero_item2 = el)}>
+        <div style={{ visibility: "hidden" }} ref={(el) => (hero_item2 = el)}>
           <TextScramble />
         </div>
-        <h2 ref={(el) => (hero_item3 = el)} className="hero__text__title">
+        <h2
+          style={{ visibility: "hidden" }}
+          ref={(el) => (hero_item3 = el)}
+          className="hero__text__title"
+        >
           I build things for the web.
         </h2>
-        <p ref={(el) => (hero_item4 = el)} className="desc p__color">
+        <p
+          style={{ visibility: "hidden" }}
+          ref={(el) => (hero_item4 = el)}
+          className="desc p__color"
+        >
           I’m a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences.
         </p>
-        <div ref={(el) => (hero_item5 = el)}>
+        <div style={{ visibility: "hidden" }} ref={(el) => (hero_item5 = el)}>
           <a className="project__link" href="#projects">
             Check out my projects
           </a>
