@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/chrisjschreiner/Portfolio">
-    <img src="src/assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/assets/logo_black.png" alt="Logo" width="80" height="90">
   </a>
 
 <h3 align="center">Portfolio</h3>
@@ -10,14 +10,14 @@
   <p align="center">
     This is my personal portfolio showcasing my projects.
     <br />
-    <a href="https://portfolio-lfqq.onrender.com">View Demo »</a>
+    <a href="https://portfolio-lfqq.onrender.com"><Strong>View Demo »</Strong></a>
   </p>
 </div>
 
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
