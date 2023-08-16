@@ -87,13 +87,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Chris Schreiner - chrisjschreiner@gmail.com
 
-Project Link: [https://github.com/chrisjschreiner/Portfolio](https://github.com/chrisjschreiner/Portfolio)
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Design inspired by Brittany Chiang](Design inspired by Brittany Chiang)
 * []()
 * []()
 
