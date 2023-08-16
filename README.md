@@ -39,6 +39,11 @@
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Site design inpired by Brittany Chiang, but created with my own code.
+
 <!-- CONTACT -->
 ## Contact
 
