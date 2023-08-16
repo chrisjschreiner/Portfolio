@@ -35,8 +35,6 @@
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass,vscode&perline=18)](https://skillicons.dev)
 
-See the [open issues](https://github.com/chrisjschreiner/Portfolio/issues) for a full list of proposed features (and known issues).
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
