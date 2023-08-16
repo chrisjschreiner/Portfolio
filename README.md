@@ -10,14 +10,14 @@
   <p align="center">
     This is my personal portfolio showcasing my projects.
     <br />
-    <a href="https://portfolio-lfqq.onrender.com"><Strong>View Demo »</Strong></a>
+    <a href="https://portfolio-lfqq.onrender.com"><Strong>View Site »</Strong></a>
   </p>
 </div>
 
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -47,26 +47,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p float="left">
-  <img src="src/assets/portfolio_screenshot.png"/>
-<!--   <img src="src/assets/portfolio_screenshot_mobile.png" width="140px" height="295px" /> -->
-</p>
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `chrisjschreiner`, `Portfolio`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+![Portfolio Screen Shot][product-screenshot]
 
 ## Built With
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass,vscode&perline=18)](https://skillicons.dev)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -190,7 +175,7 @@ Project Link: [https://github.com/chrisjschreiner/Portfolio](https://github.com/
 [license-url]: https://github.com/chrisjschreiner/Portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: src/assets/portfolio_screenshot.png
+[product-screenshot]: src/assets/portfolio_screenshot_mobile.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
