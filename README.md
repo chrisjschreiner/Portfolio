@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Portfolio Screen Shot][product-screenshot]
+![Portfolio Screen Shot][product-screenshot]
 
 ## Built With
 
