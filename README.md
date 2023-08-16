@@ -14,8 +14,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -27,18 +25,9 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -52,14 +41,6 @@
 ## Built With
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass,vscode&perline=18)](https://skillicons.dev)
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
 See the [open issues](https://github.com/chrisjschreiner/Portfolio/issues) for a full list of proposed features (and known issues).
 
@@ -86,13 +67,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Chris Schreiner - chrisjschreiner@gmail.com
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Design inspired by Brittany Chiang](Design inspired by Brittany Chiang)
-* []()
-* []()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
