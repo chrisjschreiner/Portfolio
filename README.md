@@ -53,10 +53,6 @@
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass,vscode&perline=18)](https://skillicons.dev)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
