@@ -48,7 +48,7 @@
 ## About The Project
 
 <p float="left">
-  <img src="src/assets/portfolio_screenshot.png"/>
+  <img src="src/assets/screenshot_desktop.png"/>
 <!--   <img src="src/assets/portfolio_screenshot_mobile.png" width="140px" height="295px" /> -->
 </p>
 
