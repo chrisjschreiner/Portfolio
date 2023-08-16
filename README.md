@@ -47,12 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p float="left">
-  <img src="src/assets/screenshot_desktop.png"/>
-<!--   <img src="src/assets/portfolio_screenshot_mobile.png" width="140px" height="295px" /> -->
-</p>
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Portfolio Screen Shot][product-screenshot]
 
 ## Built With
 
@@ -184,7 +179,7 @@ Project Link: [https://github.com/chrisjschreiner/Portfolio](https://github.com/
 [license-url]: https://github.com/chrisjschreiner/Portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: src/assets/portfolio_screenshot.png
+[product-screenshot]: src/assets/screenshot_desktop.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
