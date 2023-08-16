@@ -79,7 +79,8 @@ const Project = () => {
               <p>
                 E-commerce web application built using the MERN stack, and
                 inspired by my love for snowboarding and all things outdoors.
-                May need to wait up to a minute to initially view products.
+                Due to free hosting, may need to wait up to 45 seconds to
+                initially view products.
               </p>
               <ul>
                 <li>Styled-components</li>
