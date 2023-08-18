@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "../styles/Navbar.css";
 import { Fade as Hamburger } from "hamburger-react";
 import logo from "../assets/logo.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/tech_resume.pdf";
 
 const Navbar = ({ timeline }) => {
   const [click, setClick] = useState(false);
