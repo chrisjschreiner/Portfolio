@@ -91,7 +91,7 @@ const Project = () => {
               <div className="project__links">
                 <IconContext.Provider value={{}}>
                   <a
-                    href="https://github.com/chrisjschreiner/SCHR.-frontend"
+                    href="https://github.com/chrisjschreiner/ecommerce"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
