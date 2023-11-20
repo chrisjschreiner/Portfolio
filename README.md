@@ -43,7 +43,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENT -->
 ## Acknowledgment
 
-Site design inpired by Brittany Chiang, but created with my own code.
+Site design inspired by Brittany Chiang, but created with my own code.
 
 <!-- CONTACT -->
 ## Contact
