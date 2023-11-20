@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import "../styles/About.css";
-import me from "../assets/me-b&w.jpg";
+import me from "../assets/profile_pic_vivid.JPG";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
