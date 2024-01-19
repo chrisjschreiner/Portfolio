@@ -162,7 +162,7 @@ const Project = () => {
               <p>
                 Conjugate 600+ Spanish verbs into all moods and tenses. My
                 students finally have an app to beef up their skills, with no
-                annoying ads or confusing navaigation.
+                annoying ads or confusing navigation.
               </p>
               <ul>
                 <li>React</li>
