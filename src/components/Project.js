@@ -157,11 +157,12 @@ const Project = () => {
           </div>
           <div className="project1-content">
             <div className="project-label">Featured Project</div>
-            <h4 className="project-title">Verb Conjugator</h4>
+            <h4 className="project-title">Verbzy</h4>
             <div className="project-details">
               <p>
-                Conjugate 600+ Spanish verbs into all moods and tenses with this
-                app inspired by my love for languages.
+                Conjugate 600+ Spanish verbs into all moods and tenses. My
+                students finally have an app to beef up their skills, with no
+                annoying ads or confusing navaigation.
               </p>
               <ul>
                 <li>React</li>
