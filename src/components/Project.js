@@ -156,7 +156,7 @@ const Project = () => {
           </div>
           <div className="project1-content">
             <div className="project-label">Featured Project</div>
-            <h4 className="project-title">Verbzy</h4>
+            <h4 className="project-title">SCHR.</h4>
             <div className="project-details">
               <p>
                 E-commerce web application built using the MERN stack, and
