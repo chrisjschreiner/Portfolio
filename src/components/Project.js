@@ -68,37 +68,36 @@ const Project = () => {
         <h2 ref={h2_ref} className="numbered-heading">
           Some Things I've Built
         </h2>
-        <div ref={project1_ref} className="project">
+        <div ref={project3_ref} className="project">
           <div className="project1-img">
-            <img src={project1pic} alt="" />
+            <img src={project3pic} alt="" />
           </div>
           <div className="project1-content">
             <div className="project-label">Featured Project</div>
-            <h4 className="project-title">SCHR.</h4>
+            <h4 className="project-title">Verbzy</h4>
             <div className="project-details">
               <p>
-                E-commerce web application built using the MERN stack, and
-                inspired by my love for snowboarding and all things outdoors.
-                Due to free hosting, may need to wait up to 45 seconds to
-                initially view products.
+                {" "}
+                Conjugate 600+ Spanish verbs into all moods and tenses. My
+                students finally have an app to beef up their skills, with no
+                annoying ads or confusing navigation.
               </p>
               <ul>
-                <li>Styled-components</li>
-                <li>Stripe</li>
-                <li>Redux</li>
-                <li>JWT</li>
+                <li>React</li>
+                <li>Tailwind</li>
+                <li>Vite</li>
               </ul>
               <div className="project__links">
                 <IconContext.Provider value={{}}>
                   <a
-                    href="https://github.com/chrisjschreiner/ecommerce"
+                    href="https://github.com/chrisjschreiner/spanish-verb-conjugator"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FiGithub />
                   </a>
                   <a
-                    href="https://schr.onrender.com/"
+                    href="https://spanish-verb-conjugator.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -151,35 +150,37 @@ const Project = () => {
           </div>
         </div>
 
-        <div ref={project3_ref} className="project">
+        <div ref={project1_ref} className="project">
           <div className="project1-img">
-            <img src={project3pic} alt="" />
+            <img src={project1pic} alt="" />
           </div>
           <div className="project1-content">
             <div className="project-label">Featured Project</div>
             <h4 className="project-title">Verbzy</h4>
             <div className="project-details">
               <p>
-                Conjugate 600+ Spanish verbs into all moods and tenses. My
-                students finally have an app to beef up their skills, with no
-                annoying ads or confusing navigation.
+                E-commerce web application built using the MERN stack, and
+                inspired by my love for snowboarding and all things outdoors.
+                Due to free hosting, may need to wait up to 45 seconds to
+                initially view products.
               </p>
               <ul>
-                <li>React</li>
-                <li>Tailwind</li>
-                <li>Vite</li>
+                <li>Styled-components</li>
+                <li>Stripe</li>
+                <li>Redux</li>
+                <li>JWT</li>
               </ul>
               <div className="project__links">
                 <IconContext.Provider value={{}}>
                   <a
-                    href="https://github.com/chrisjschreiner/spanish-verb-conjugator"
+                    href="https://github.com/chrisjschreiner/ecommerce"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FiGithub />
                   </a>
                   <a
-                    href="https://spanish-verb-conjugator.onrender.com/"
+                    href="https://schr.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
