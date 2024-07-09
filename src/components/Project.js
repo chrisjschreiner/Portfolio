@@ -116,7 +116,8 @@ const Project = () => {
             <div className="project-details">
               <p>
                 Explore U.S. ski resort destinations on a map. Learn of others'
-                experiences or create an account to share your own.
+                experiences or create an account to share your own. Due to free
+                hosting, may need to wait for website to load.
               </p>
               <ul>
                 <li>NodeJS</li>
@@ -161,8 +162,8 @@ const Project = () => {
               <p>
                 E-commerce web application built using the MERN stack, and
                 inspired by my love for snowboarding and all things outdoors.
-                Due to free hosting, may need to wait up to 45 seconds to
-                initially view products.
+                Due to free hosting, may need to wait to initially view
+                products.
               </p>
               <ul>
                 <li>Styled-components</li>
